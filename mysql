@@ -1,4 +1,4 @@
-[ lab week 3
+[ lab week 4
 
 SELECT d.name, e.name
 FROM department d, employee e 
