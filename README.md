@@ -1,2 +1,2 @@
 # phanlinh.github.io
-welcome 
+this is crazy how nothing seems to work
