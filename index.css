@@ -2,3 +2,10 @@
     background-color: darkblue;
     overflow: hidden;
 }
+
+.topnav a {
+    float: left;
+    padding: 20px 80px;
+    text-align: center;
+    color: white;
+}
