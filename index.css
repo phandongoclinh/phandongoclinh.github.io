@@ -1,9 +1,4 @@
-.topnav {
-    color:cyan;
-    overflow: hidden;
-  }
-  
-  .topnav a {
+.topnav a {
     font-size:1em;
     font-weight:normal;
     line-height:1;
