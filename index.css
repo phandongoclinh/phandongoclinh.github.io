@@ -20,6 +20,14 @@
   padding-right: 50px;
 }
 
+.topnav:hover a:hover {
+  color:white;
+}
+
+.topnav:hover a:hover.active {
+  color: #df2021;
+}
+
 /* The dropdown container */
 .dropdown {
   float: right;
