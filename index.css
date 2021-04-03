@@ -27,7 +27,6 @@
 .topnav:hover a:hover.active {
   color: #df2021;
 }
-
 /* The dropdown container */
 .dropdown {
   float: right;
@@ -46,8 +45,12 @@
   
 }
 /* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: white;
+.navbar a:hover, .dropdown:hover .dropbtn:active {
+  background-color: cyan;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn:hover {
+  color: white;
 }
 
 /* Dropdown content (hidden by default) */
@@ -55,12 +58,12 @@
   display: none;
   position: absolute;
   background-color: inherit;
-  z-index: 1;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: black;
+  background-color: cyan;
+  color: #df2021;
   padding: 12px;
   text-decoration: none;
   text-align: left;
