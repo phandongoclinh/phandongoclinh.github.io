@@ -1,9 +1,9 @@
-.topnav {
+topnav {
     background-color: black;
     overflow: hidden;
 }
 
-.topnav a {
+topnav a {
     float: left;
     padding: 14px 50px;
     text-align: center;
