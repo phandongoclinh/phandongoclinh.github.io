@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-This is how to resolve a conflict
-=======
-this is our conflict.
->>>>>>> d46aecedcd7ad32303625cd747289d107807e7e3

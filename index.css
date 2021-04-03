@@ -1,0 +1,14 @@
+.topnav {
+    background-color: white;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    font-size:1em;
+    font-weight:normal;
+    line-height:1;
+    text-decoration:none;
+    color:black;
+    padding:0px;
+    margin:0px;
+  }
