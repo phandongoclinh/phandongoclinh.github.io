@@ -104,12 +104,13 @@
   color: white;
 }
 
-.home {
-  display: table;
-}
 .home .book {
   float: left;
   padding: 15px 70px;
+}
+
+.home {
+  display: table;
 }
 
 .home a {
