@@ -1,8 +1,8 @@
 .topnav {
-  background-color: #0AF5BF;
+  background-color: #0DB5F2;
 }
 .topnav a.active {
-  color: #0AB5F5;
+  color: white;
   font-size: 50px;
   font-family: Trebuchet MS, sans-serif;
   font-weight: bold;
@@ -12,7 +12,7 @@
 }
 
 .topnav a {
-  color: #0AB5F5;
+  color: white;
   font-size: 20px;
   text-decoration: none;
   font-family: Arial, sans-serif;
@@ -21,11 +21,11 @@
 }
 
 .topnav:hover a:hover {
-  color:white;
+  color: #4A0AF5;
 }
 
 .topnav:hover a:hover.active {
-  color: #0AB5F5;
+  color: white;
 }
 /* The dropdown container */
 .dropdown {
@@ -37,16 +37,12 @@
 .dropdown .dropbtn {
   font-size: 20px;
   border: none;
-  color: #0AB5F5;
+  color: white;
   padding: 29px;
   background-color: inherit;
   font-family: Trebuchet MS, sans-serif;
   font-weight: bold;
   
-}
-/* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn:active {
-  background-color: #0AF5BF;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn:hover {
@@ -62,8 +58,8 @@
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  background-color: #0AF5BF;
-  color: #0AB5F5;
+  background-color: #0DB5F2;
+  color: white;
   padding: 12px;
   text-decoration: none;
   text-align: left;
@@ -72,7 +68,7 @@
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #0AF5BF;
+  background-color: #0DB5F2;
 }
 
 /* Show the dropdown menu on hover */
@@ -81,7 +77,7 @@
 }
 
 .botnav {
-  background-color:#0AF5BF;
+  background-color: #0DB5F2;
   bottom: 0;
   position: fixed;
   width: 100%;
@@ -92,8 +88,8 @@
   font-family: Trebuchet MS, sans-serif;
   font-size: 20px;
   font-weight: bold;
-  color: #0AB5F5;
-  padding: 140px;
+  color: white;
+  padding-left: 200px;
 }
 
 .botnav a .pripo {
@@ -101,9 +97,12 @@
 }
 
 .botnav:hover a:hover {
-  color: white;
+  color: #4A0AF5;
 }
 
+.home {
+  display: table;
+}
 .home .book {
   float: left;
   padding: 15px 70px;
@@ -120,7 +119,7 @@ h2 {
 }
 
 .home:hover .book:hover {
-  background-color: #0AF5BF;
+  background-color: #0DB5F2;
 }
 
 .home1 .book1 {
@@ -139,5 +138,5 @@ h2 {
 }
 
 .home1:hover .book1:hover {
-  background-color:#0AF5BF;
+  background-color: #0DB5F2;
 }
