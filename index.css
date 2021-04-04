@@ -79,3 +79,27 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.botnav {
+  background-color: cyan;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.botnav a {
+  text-decoration: none;
+  font-family: Trebuchet MS, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #df2021;
+  padding: 130px;
+}
+
+.botnav a .pripo {
+  padding-left: 20px;
+}
+
+.botnav:hover a:hover {
+  color: white;
+}
