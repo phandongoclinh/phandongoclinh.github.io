@@ -17,7 +17,7 @@
   text-decoration: none;
   font-family: Arial, sans-serif;
   font-weight: bold;
-  padding-right: 50px;
+  padding: 50px;
 }
 
 .topnav:hover a:hover {
@@ -30,7 +30,7 @@
 /* The dropdown container */
 .dropdown {
   float: right;
-  padding-right: 30px;
+  padding-right: 140px;
 }
 
 /* Dropdown button */
