@@ -2,7 +2,7 @@
   background-color: #0AF5BF;
 }
 .topnav a.active {
-  color: #F50A40;
+  color: #0AB5F5;
   font-size: 50px;
   font-family: Trebuchet MS, sans-serif;
   font-weight: bold;
@@ -12,7 +12,7 @@
 }
 
 .topnav a {
-  color: #F50A40;
+  color: #0AB5F5;
   font-size: 20px;
   text-decoration: none;
   font-family: Arial, sans-serif;
@@ -25,7 +25,7 @@
 }
 
 .topnav:hover a:hover.active {
-  color: #F50A40;
+  color: #0AB5F5;
 }
 /* The dropdown container */
 .dropdown {
@@ -37,7 +37,7 @@
 .dropdown .dropbtn {
   font-size: 20px;
   border: none;
-  color: #F50A40;
+  color: #0AB5F5;
   padding: 29px;
   background-color: inherit;
   font-family: Trebuchet MS, sans-serif;
@@ -63,7 +63,7 @@
 /* Links inside the dropdown */
 .dropdown-content a {
   background-color: #0AF5BF;
-  color: #F50A40;
+  color: #0AB5F5;
   padding: 12px;
   text-decoration: none;
   text-align: left;
@@ -92,7 +92,7 @@
   font-family: Trebuchet MS, sans-serif;
   font-size: 20px;
   font-weight: bold;
-  color: #F50A40;
+  color: #0AB5F5;
   padding: 140px;
 }
 
