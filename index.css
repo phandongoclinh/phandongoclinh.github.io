@@ -144,5 +144,5 @@ h2 {
 .about-us {
   text-align: center;
   font-family: Lexend, sans-serif;
-  display: table-cell;
+  background-image: url("aboutus.jpg");
 }
