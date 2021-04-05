@@ -140,3 +140,12 @@ h2 {
 .home1:hover .book1:hover {
   background-color: #0DB5F2;
 }
+
+.intro {
+  float: left;
+  padding: 100px;
+}
+.intro p {
+  font-size: 20px;
+  font-family: Lexend, sans-serif;
+}
