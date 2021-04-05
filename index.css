@@ -142,9 +142,9 @@ h2 {
 }
 
 .container {
-  position: relative;
   text-align: center;
   font-family: Lexend, sans-serif;
+  display: table-cell;
 }
 
 .au-bg {
