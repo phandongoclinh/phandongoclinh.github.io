@@ -141,8 +141,13 @@ h2 {
   background-color: #0DB5F2;
 }
 
-.about-us {
+.h3 {
   text-align: center;
   font-family: Lexend, sans-serif;
-  background-image: url("aboutus.jpg");
 }
+ .para {
+  font-family: Lexend, sans-serif;
+  float: left;
+  padding: 10px 160px;
+  width: 300px;
+ }
