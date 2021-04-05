@@ -147,16 +147,7 @@ h2 {
   font-family: Lexend, sans-serif;
 }
 
-.about-us p1 {
-  float: left;
-  border: solid;
-  border-color: brown;
-  margin: 50px;
-}
-
-.about-us p2 {
-  float: right;
-  border: solid;
-  border-color: crimson;
-  margin: 50px;
+.about-us {
+  background: url("aboutus.jpg") no-repeat center fixed;
+  background-size: cover;
 }
