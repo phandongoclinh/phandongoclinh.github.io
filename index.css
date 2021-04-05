@@ -144,10 +144,27 @@ h2 {
 h3 {
   text-align: center;
   font-family: Lexend, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
 }
  .para {
   font-family: Lexend, sans-serif;
   float: left;
   padding: 10px 160px;
   width: 300px;
+  font-size: 20px;
+  font-weight: bold;
  }
+
+ .form {
+  font-size: 15px;
+  font-family: Lexend, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.form #pp {
+  font-size: 15px;
+  font-family: Lexend, sans-serif;
+  font-weight: bold;
+}
