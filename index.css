@@ -168,3 +168,7 @@ h3 {
   font-family: Lexend, sans-serif;
   font-weight: bold;
 }
+
+h1 {
+  text-align: left;
+}
