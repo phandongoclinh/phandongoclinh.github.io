@@ -147,7 +147,8 @@ h2 {
   font-family: Lexend, sans-serif;
 }
 
-.about-us {
-  background: url("aboutus.jpg") no-repeat center fixed;
-  background-size: cover;
+.au-bg {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
 }
