@@ -144,4 +144,19 @@ h2 {
 .about-us {
   text-align: center;
   padding: 30px;
+  font-family: Lexend, sans-serif;
+}
+
+.about-us p1 {
+  float: left;
+  border: solid;
+  border-color: brown;
+  margin: 50px;
+}
+
+.about-us p2 {
+  float: right;
+  border: solid;
+  border-color: crimson;
+  margin: 50px;
 }
