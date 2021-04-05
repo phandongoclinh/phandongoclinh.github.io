@@ -141,11 +141,7 @@ h2 {
   background-color: #0DB5F2;
 }
 
-.intro {
-  float: left;
-  padding: 100px;
-}
-.intro p {
-  font-size: 20px;
-  font-family: Lexend, sans-serif;
+.about-us {
+  text-align: center;
+  padding: 30px;
 }
