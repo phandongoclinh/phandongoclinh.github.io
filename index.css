@@ -141,7 +141,8 @@ h2 {
   background-color: #0DB5F2;
 }
 
-.about-us {
+.container {
+  position: relative;
   text-align: center;
   font-family: Lexend, sans-serif;
 }
