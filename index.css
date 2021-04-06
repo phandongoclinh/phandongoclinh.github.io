@@ -117,6 +117,7 @@
 h2 {
   font-family: Lexend, sans-serif;
   text-decoration: underline;
+  padding-left: 60px;
 }
 
 .home:hover .book:hover {
