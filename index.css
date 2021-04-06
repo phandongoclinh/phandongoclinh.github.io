@@ -181,9 +181,15 @@ h1 {
 
 .copyright h3 {
   text-decoration: underline;
+  text-align: center;
 }
 
 h4 {
   text-align: center;
   font-family: Lexend, sans-serif;
+}
+
+.pripo {
+  font-family: Lexend, sans-serif;
+  font-size: 15px;
 }
