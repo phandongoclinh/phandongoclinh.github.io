@@ -170,5 +170,15 @@ h3 {
 }
 
 .form h1 {
-  text-align: justify;
+  text-align: center;
+}
+
+.copyright {
+  font-family: Lexend, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.copyright h3 {
+  text-decoration: underline;
 }
