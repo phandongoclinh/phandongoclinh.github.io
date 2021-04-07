@@ -105,7 +105,7 @@
 }
 .home .book {
   float: left;
-  padding: 20px 60px;
+  padding: 20px 100px;
 }
 
 .home a {
@@ -114,7 +114,7 @@
   font-family: Lexend, sans-serif;
 }
 
-h2 {
+.home h2 {
   font-family: Lexend, sans-serif;
   text-decoration: underline;
   padding-left: 60px;
@@ -126,7 +126,7 @@ h2 {
 
 .home1 .book1 {
   float: left;
-  padding: 15px 70px;
+  padding: 20px 100px;
 }
 
 .home1 {
@@ -194,4 +194,9 @@ h4 {
 .pripo {
   font-family: Lexend, sans-serif;
   font-size: 15px;
+}
+
+.tos h2 {
+  font-family: Lexend, sans-serif;
+  text-align: left;
 }
