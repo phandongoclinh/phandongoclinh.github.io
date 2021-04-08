@@ -30,25 +30,26 @@ html {
   .topnav:hover a:hover.active {
     color: white;
   }
-  /* The dropdown container */
+  
   .dropdown {
     float: right;
-    padding-right: 70px;
+    position: relative;
   }
   
   /* Dropdown button */
-  .dropdown .dropbtn {
+  .dropdown .dropbutton {
     font-size: 15px;
     border: none;
     color: white;
-    padding: 37px;
     background-color: inherit;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    
+    padding-top: 35px;
+    padding-right: 110px;
+    padding-bottom: 8px;
   }
   
-  .navbar a:hover, .dropdown:hover .dropbtn:hover {
+  .navbar a:hover, .dropdown:hover .dropbutton:hover {
     color: #E3AFBC;
   }
   
@@ -63,10 +64,11 @@ html {
   .dropdown-content a {
     background-color: #5D001E;
     color: white;
-    padding: 12px;
+    padding: 12px ;
     text-decoration: none;
     text-align: left;
     font-size: 15px;
+    display: block;
   }
   
   /* Add a grey background color to dropdown links on hover */
@@ -92,7 +94,7 @@ html {
     font-size: 20px;
     font-weight: bold;
     color: white;
-    padding: 125px;
+    padding: 15px 135px;
   }
   
   .botnav:hover a:hover {
@@ -215,12 +217,20 @@ html {
     text-align: center;
 }
 
+.tos a {
+  color:#5D001E;
+}
+
 .pripo {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .pripo h2 {
     text-align: center;
+}
+
+.pripo a {
+  color: #5D001E;
 }
 
 .jdsalinger img {
@@ -232,26 +242,171 @@ html {
 
 .jdsalinger .right-hand-info .info-top {
   float: right;
-  padding-right: 300px;
+  padding-right: 470px;
   padding-top: 120px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .jdsalinger .right-hand-info .info-bottom {
   vertical-align: baseline;
   padding-left: 500px;
   position: sticky;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: 215px;
 }
 
 .jdsalinger button {
   background-color: #5D001E;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
-  padding: 13px;
+  padding: 15px;
 }
 
 .jdsalinger button a {
   text-decoration: none;
   color: white;
+}
+
+.jdsalinger h4 {
+  clear: both;
+  padding-left: 80px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.jdsalinger table {
+  clear: both;
+  padding-left: 80px;
+  font-family:'Courier New', Courier, monospace;
+  font-weight:unset;
+  width: 50%;
+  height: 170px;
+  font-size: 14px;
+  border-spacing: 0px;
+}
+
+.jdsalinger .left-data {
+  padding-right: 5px;
+  outline-width: thick;
+  background-color: #E3AFBC;
+  border: 1px solid #ddd;
+}
+
+.jdsalinger .product-description p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  padding-left: 80px;
+}
+
+.jdsalinger .rec-pro {
+  float: left;
+  margin-bottom: 50px;
+}
+.jdsalinger .rec-pro a {
+  text-decoration: none;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: black;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+.rec-pro img {
+  padding: 30px 60px 10px 65px;
+}
+
+.rec-pro p {
+  padding-bottom: 0px;
+
+}
+
+.jdsalinger:hover .rec-pro:hover {
+  background-color: #E3AFBC;
+}
+
+/* we were liars */
+
+.elockhard img {
+  float: left;
+  padding-left: 80px;
+  padding-top: 30px;
+  padding-bottom: 55px;
+}
+
+.elockhard .right-hand-info .info-top {
+  float: right;
+  padding-right: 570px;
+  padding-top: 120px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.elockhard .right-hand-info .info-bottom {
+  vertical-align: baseline;
+  padding-left: 500px;
+  position: sticky;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: 215px;
+}
+
+.elockhard button {
+  background-color: #5D001E;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  padding: 15px;
+}
+
+.elockhard button a {
+  text-decoration: none;
+  color: white;
+}
+
+.elockhard h4 {
+  clear: both;
+  padding-left: 80px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.elockhard table {
+  clear: both;
+  padding-left: 80px;
+  font-family:'Courier New', Courier, monospace;
+  font-weight:unset;
+  width: 50%;
+  height: 170px;
+  font-size: 14px;
+  border-spacing: 0px;
+}
+
+.elockhard .left-data {
+  padding-right: 5px;
+  outline-width: thick;
+  background-color: #E3AFBC;
+  border: 1px solid #ddd;
+}
+
+.elockhard .product-description p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  padding-left: 80px;
+}
+
+.elockhard .rec-pro {
+  float: left;
+  margin-bottom: 50px;
+}
+.elockhard .rec-pro a {
+  text-decoration: none;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: black;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+
+.elockhard:hover .rec-pro:hover {
+  background-color: #E3AFBC;
+}
+
+.elockhard .rec-pro img {
+  padding: 30px 60px 10px 65px;
 }
