@@ -88,6 +88,12 @@ html {
   top: 5%;
 }
 
+@media screen and (max-width: 800px) {
+  .topnav a {
+    width: fit-content;
+  }
+}
+
 .botnav {
   background-color: #5D001E;
   bottom: 0;
