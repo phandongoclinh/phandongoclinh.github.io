@@ -10,13 +10,13 @@ public class Week1 {
     }
     static void ex1() {
         // Create input obj
-        Scanner input = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         // Print out questions
         System.out.println("Your general information: ");
 
         // Read the input information
-        String info = input.nextLine();
+        String info = sc.nextLine();
 
         // Print out the pattern and the input information
         System.out.println("********************************");
@@ -52,11 +52,11 @@ public class Week1 {
     }
 
     static void ex3() {
-        Scanner input = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("The current seconds since midnight is: ");
 
         // calculate the hour, minute and seconds
-        int time = input.nextInt();
+        int time = sc.nextInt();
         int second = time % 60;
         int hour = time / 3600;
         int minute = (time / 3600) /60;
@@ -67,20 +67,20 @@ public class Week1 {
 
     static void ex4() {
         // create point obj
-        Scanner point = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         // ask user to input x and y
         System.out.println("xA: ");
-        int xA = point.nextInt();
+        int xA = sc.nextInt();
 
         System.out.println("yA: ");
-        int yA = point.nextInt();
+        int yA = sc.nextInt();
 
         System.out.println("xB: ");
-        int xB = point.nextInt();
+        int xB = sc.nextInt();
 
         System.out.println("yB: ");
-        int yB = point.nextInt();
+        int yB = sc.nextInt();
 
         // calculate AB, thus C and S of the square
         double AB = Math.sqrt(Math.pow((xB-xA), 2) + Math.pow((yB-yA), 2));
@@ -93,21 +93,21 @@ public class Week1 {
     }
 
     static void ex5() {
-        Scanner input = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("input x and y coordinates: ");
-        int x = input.nextInt();
-        int y = input.nextInt();
+        int x = sc.nextInt();
+        int y = sc.nextInt();
 
         System.out.println("input radius: ");
-        int r = input.nextInt();
+        int r = sc.nextInt();
 
         System.out.println("input x1 and y1 coordinates: ");
-        int x1 = input.nextInt();
-        int y1 = input.nextInt();
+        int x1 = sc.nextInt();
+        int y1 = sc.nextInt();
 
         System.out.println("input the second radius: ");
-        int r1 = input.nextInt();
+        int r1 = sc.nextInt();
 
         double distance = Math.sqrt(Math.pow((x1-x), 2) + Math.pow((y1-y), 2));
 
