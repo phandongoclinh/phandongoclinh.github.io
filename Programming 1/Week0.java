@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Week0 {
     public static void main(String[] args) {
         ex0();
