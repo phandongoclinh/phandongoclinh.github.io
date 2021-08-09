@@ -1,3 +1,2 @@
 # phandongoclinh.github.io
-welcome 
-I do some lame stuff in here
+I do lame stuff in here
