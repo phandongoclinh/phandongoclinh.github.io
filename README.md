@@ -1,2 +1,2 @@
 # phandongoclinh.github.io
-I do lame stuff in here
+Some exercises and projects that I do in uni will be uploaded in here.
