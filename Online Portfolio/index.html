@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>Responsive Portfolio Website</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="" class="nav__logo">Linh</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">
+                                <i class="uil uil-estate nav__icon"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> About
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i> Skills
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">
+                                <i class="uil uil-briefcase-alt nav__icon"></i> Services
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i> Portfolio
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i> Contact Me
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__btns">
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+
+                            <a href="https://www.facebook.com/phandongoclinh" target="_blank" class="home__social-icon">
+                                <i class="uil uil-facebook-f"></i>
+                            </a>
+
+                            <a href="https://github.com/phandongoclinh/phandongoclinh.github.io" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M47.4,-60.9C62.6,-54.2,77,-41.9,83.7,-26.1C90.4,-10.2,89.4,9.3,81.1,23.7C72.7,38.1,57,47.4,42.2,58.7C27.5,70,13.7,83.2,-1.3,85.1C-16.4,86.9,-32.8,77.3,-42.9,64.5C-53,51.7,-56.7,35.7,-64,19.4C-71.4,3,-82.2,-13.6,-79.9,-27.6C-77.6,-41.6,-62.2,-53,-46.7,-59.7C-31.2,-66.3,-15.6,-68.3,0.2,-68.6C16.1,-69,32.2,-67.7,47.4,-60.9Z" transform="translate(100 100)" />
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M47.4,-60.9C62.6,-54.2,77,-41.9,83.7,-26.1C90.4,-10.2,89.4,9.3,81.1,23.7C72.7,38.1,57,47.4,42.2,58.7C27.5,70,13.7,83.2,-1.3,85.1C-16.4,86.9,-32.8,77.3,-42.9,64.5C-53,51.7,-56.7,35.7,-64,19.4C-71.4,3,-82.2,-13.6,-79.9,-27.6C-77.6,-41.6,-62.2,-53,-46.7,-59.7C-31.2,-66.3,-15.6,-68.3,0.2,-68.6C16.1,-69,32.2,-67.7,47.4,-60.9Z" transform="translate(100 100)" />
+                                    <image class="home__blob-img" x="20" y="30" xlink:href="img/feature.png"/>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="home__data">
+                            <h1 class="home__title">Hi, I'm Linh</h1>
+                            <h3 class="home__subtitle">Currently studying IT</h3>
+                            <p class="home__description">I love programming and working in code-related projects. I aspire to produce high quality works and learn along the way.</p>
+                            <a href="#contact" class="button button--flex">
+                                Contact Me <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section__title">About Me</h2>
+                <span class="section__subtitle">My introduction</span>
+
+                <div class="about__container container grid">
+                    <img src="img/ugglyyselfportrait.jpg" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <p class="about__description">I'm currently studying for my Bachelor degree in Information Technology at RMIT University. This is a small project that I did during my gap semester.</p>
+
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">01+</span>
+                                <span class="about__info-name">Years <br> studying</span>
+                            </div>
+
+                            <div>
+                                <span class="about__info-title">10+</span>
+                                <span class="about__info-name">Completed <br> projects</span>
+                            </div>
+
+                            <div>
+                                <span class="about__info-title">03+</span>
+                                <span class="about__info-name">Languages <br> fluenced</span>
+                            </div>
+                        </div>
+
+                        <div class="about__buttons">
+                            <a href="#continueHere" class="button button--flex"></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+
+
+            </section>
+
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section">
+
+
+            </section>
+
+            <!--==================== SERVICES ====================-->
+            <section class="services section" id="services">
+                
+
+            </section>
+
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="portfolio">
+                
+
+            </section>
+
+            <!--==================== PROJECT IN MIND ====================-->
+            <section class="project section">
+
+
+            </section>
+
+            <!--==================== TESTIMONIAL ====================-->
+            <section class="testimonial section">
+                
+
+            </section>
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+
+
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+
+            
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        
+
+        <!--==================== SWIPER JS ====================-->
+        <script src=""></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="js/main.js"></script>
+    </body>
+</html>
