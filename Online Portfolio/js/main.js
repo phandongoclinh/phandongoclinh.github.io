@@ -111,7 +111,9 @@ var swiperPortfolio = new Swiper('.portfolio__container', {
 
 /*==================== TESTIMONIAL ====================*/
 var swiperTestimonial = new Swiper('.testimonial__container', {
-  
+    cssMode: true,
+    loop: true,
+
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
